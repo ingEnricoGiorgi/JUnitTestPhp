@@ -1,0 +1,12 @@
+./vendor/bin/phpunit tests
+
+oppure f1 e betterphp run file
+nome test
+./vendor/bin/phpunit --filter --do-not-cache-result testCanBeUsedAsString tests/EmailTest.php
+
+./vendor/bin/phpunit --filter --do-not-cache-result testTrue tests/AssertTrueTest.php
+
+./vendor/bin/phpunit tests/PlutoTest.php
+
+composer require --dev brianium/paratest
+./vendor/bin/paratest

@@ -1,0 +1,19 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="mySuite">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="esercitazioni">
+            <directory>tests/esercitazioni</directory>
+        </testsuite>
+    </testsuites>
+    <coverage includeUncoveredFiles="true"
+          processUncoveredFiles="true"
+          ignoreDeprecatedCodeUnits="true"
+          disableCodeCoverageIgnore="true"
+          pathCoverage="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
+</phpunit>
