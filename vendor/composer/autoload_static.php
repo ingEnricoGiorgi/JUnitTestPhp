@@ -119,6 +119,9 @@ class ComposerStaticInitf5b203c2b284fab0b0ca9200013828fe
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'CleanTest\\Book' => __DIR__ . '/../..' . '/src/cleanTest/Book.php',
+        'CleanTest\\Stock' => __DIR__ . '/../..' . '/src/cleanTest/Stock.php',
+        'CleanTest\\StockItem' => __DIR__ . '/../..' . '/src/cleanTest/StockItem.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Email' => __DIR__ . '/../..' . '/src/Email.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',

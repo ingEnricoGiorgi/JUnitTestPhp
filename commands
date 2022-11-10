@@ -10,3 +10,13 @@ nome test
 
 composer require --dev brianium/paratest
 ./vendor/bin/paratest
+
+ aggiungo classi e faccio
+ composer dump-autoload
+
+#aggiungo un import Book con ctrl spazio sull'oggetto Book
+#::si usa solo per i metodi statici senno la freccia
+./vendor/bin/phpunit tests/CleanTest/StockItemTest.php
+
+#lancio il singolo test
+./vendor/bin/paratest --filter <nomeTest> tests/CleanTest/StockTest.php
