@@ -119,9 +119,6 @@ class ComposerStaticInitf5b203c2b284fab0b0ca9200013828fe
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-        'CleanTest\\Book' => __DIR__ . '/../..' . '/src/cleanTest/Book.php',
-        'CleanTest\\Stock' => __DIR__ . '/../..' . '/src/cleanTest/Stock.php',
-        'CleanTest\\StockItem' => __DIR__ . '/../..' . '/src/cleanTest/StockItem.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Email' => __DIR__ . '/../..' . '/src/Email.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
@@ -756,6 +753,10 @@ class ComposerStaticInitf5b203c2b284fab0b0ca9200013828fe
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'cleanTest\\Book' => __DIR__ . '/../..' . '/src/cleanTest/Book.php',
+        'cleanTest\\Stock' => __DIR__ . '/../..' . '/src/cleanTest/Stock.php',
+        'cleanTest\\StockItem' => __DIR__ . '/../..' . '/src/cleanTest/StockItem.php',
+        'testDouble\\DB' => __DIR__ . '/../..' . '/src/testDouble/DB.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

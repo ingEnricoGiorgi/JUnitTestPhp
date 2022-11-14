@@ -1,3 +1,5 @@
+php --ini
+php -version
 ./vendor/bin/phpunit tests
 
 oppure f1 e betterphp run file
@@ -11,12 +13,31 @@ nome test
 composer require --dev brianium/paratest
 ./vendor/bin/paratest
 
- aggiungo classi e faccio
+ #aggiungo classi e faccio
  composer dump-autoload
+ #nel composer va usato è scritto dentro il composer json 
+ #ogni volta che aggiungo un file o cartella
+#il discover viene fatto sulle classi che terminano con "Test"
 
 #aggiungo un import Book con ctrl spazio sull'oggetto Book
 #::si usa solo per i metodi statici senno la freccia
-./vendor/bin/phpunit tests/CleanTest/StockItemTest.php
+./vendor/bin/phpunit tests/cleanTest/StockItemTest.php
+./vendor/bin/phpunit tests/cleanTest/DependenciesCustomTest.php
 
 #lancio il singolo test
 ./vendor/bin/paratest --filter <nomeTest> tests/CleanTest/StockTest.php
+
+./vendor/bin/phpunit --testsuite cleanTest
+
+#per usare i valori di return di altri metodi nel metodo secondario
+/**
+@depends nomeTest
+*/
+deep copy - copia di un oggetto
+shallow clone - modifica pure la copia originale
+
+@dataProvider additionProvider  - fornisco dati ad esempio un array
+
+Risky Tesk - sono dei test privi di assert
+
+./vendor/bin/phpunit tests/testDouble/MockTest.php

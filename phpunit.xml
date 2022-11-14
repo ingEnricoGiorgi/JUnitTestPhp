@@ -3,8 +3,8 @@
         <testsuite name="mySuite">
             <directory>tests</directory>
         </testsuite>
-        <testsuite name="esercitazioni">
-            <directory>tests/esercitazioni</directory>
+        <testsuite name="cleanTest">
+            <directory>tests/cleanTest</directory>
         </testsuite>
     </testsuites>
     <coverage includeUncoveredFiles="true"

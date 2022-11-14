@@ -40,11 +40,12 @@ final class PlutoTest extends TestCase
              $this->assertObjectEquals($expected, $actual, $method='equals', string $message ='sono uguali');
         }*/
         /** @test */
-        public function testisNumeric(): void
+        public function testisNumeric(): string
         {
-            $expected ='12';
+            $expected ='54';
             //order insensitive
             $this->assertIsNumeric( $expected);
+            return $expected;
         }
         /** @test */
         public function testisNotArray(): void

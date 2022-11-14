@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace CleanTest;
+namespace cleanTest;
 
 class Book
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CleanTest;
+namespace cleanTest;
 
-use CleanTest\Book;
+use cleanTest\Book;
 use PHPUnit\Framework\TestCase;
 use stdClass;
-use CleanTest\StockItem;
-use CleanTest\Stock;
+use cleanTest\StockItem;
+
 
 final class StockItemTest extends TestCase
 {

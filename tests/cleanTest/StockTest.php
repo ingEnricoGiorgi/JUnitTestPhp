@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CleanTest;
+namespace cleanTest;
 
-use CleanTest\Book;
+use cleanTest\Book;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 
-use CleanTest\Stock;
+use cleanTest\Stock;
 use Exception;
 
 final class StockTest extends TestCase

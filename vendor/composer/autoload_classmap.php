@@ -7,9 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-    'CleanTest\\Book' => $baseDir . '/src/cleanTest/Book.php',
-    'CleanTest\\Stock' => $baseDir . '/src/cleanTest/Stock.php',
-    'CleanTest\\StockItem' => $baseDir . '/src/cleanTest/StockItem.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Email' => $baseDir . '/src/Email.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
@@ -644,4 +641,8 @@ return array(
     'TheSeer\\Tokenizer\\XMLSerializer' => $vendorDir . '/theseer/tokenizer/src/XMLSerializer.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+    'cleanTest\\Book' => $baseDir . '/src/cleanTest/Book.php',
+    'cleanTest\\Stock' => $baseDir . '/src/cleanTest/Stock.php',
+    'cleanTest\\StockItem' => $baseDir . '/src/cleanTest/StockItem.php',
+    'testDouble\\DB' => $baseDir . '/src/testDouble/DB.php',
 );
